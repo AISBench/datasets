@@ -598,26 +598,23 @@ def compare_means_single(dataset_name: str, full_data: pd.DataFrame, representat
 
     # Plot
     fig, ax = plt.subplots(figsize=(12, 6))
-    bar_width = 0.25
-    r = np.arange(len(score_cols))
+    markers = ['o', 's', '^']
+    line_styles = ['-', '--', ':']
 
     # Add grid
     ax.grid(True, axis='y', linestyle='--', alpha=0.7, zorder=0)
 
     for idx, (sample_name, means) in enumerate(means_df.items()):
-        position = r + idx * bar_width
-        bars = ax.bar(position, means[score_cols], bar_width, label=sample_name, zorder=3)
+        ax.plot(score_cols, means[score_cols], marker=markers[idx], linestyle=line_styles[idx],
+                linewidth=2, markersize=8, label=sample_name, zorder=3)
 
-        # Add value labels on top of each bar
-        for bar in bars:
-            height = bar.get_height()
-            ax.text(bar.get_x() + bar.get_width() / 2., height,
-                   f'{height:.3f}',
-                   ha='center', va='bottom', fontsize=9, rotation=0)
+        # Add value labels for each point
+        for i, val in enumerate(means[score_cols]):
+            ax.text(i, val, f'{val:.3f}', ha='center', va='bottom', fontsize=9, zorder=4)
 
     ax.set_ylabel('Mean Value')
     ax.set_title(f'Means Comparison - {dataset_name}')
-    ax.set_xticks(r + bar_width)
+    ax.set_xticks(range(len(score_cols)))
     ax.set_xticklabels(score_cols, rotation=45, ha='right')
     ax.legend()
 
