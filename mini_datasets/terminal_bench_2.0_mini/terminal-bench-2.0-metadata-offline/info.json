@@ -1,6 +1,6 @@
 [
     {
-        "name": "terminal_bench_metadata_no_online",
+        "name": "terminal_bench_offline_metadata",
         "count": 70,
         "avg_scores": [
             0.6571428571,
