@@ -1,0 +1,672 @@
+[
+    {
+        "dataset_name": "metadata_multiple_objects",
+        "sizes": {
+            "full": 82,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/multiple_objects": 0.849809451219512,
+                "Sora_cla/multiple_objects": 0.7979674796747968,
+                "wan2.1_cla/multiple_objects": 0.7420604674796747,
+                "wan2.2_cla/multiple_objects": 0.8957825203252034,
+                "vidu_cla/multiple_objects": 0.6821773373983739,
+                "Kling-1.6_cla/multiple_objects": 0.6670477642276423,
+                "hunyuanvideo_cla/multiple_objects": 0.7274390243902439,
+                "veo_3_cla/multiple_objects": 0.8820757113821138
+            },
+            "K-means Representative": {
+                "opensora2/multiple_objects": 0.8843749999999999,
+                "Sora_cla/multiple_objects": 0.8260416666666667,
+                "wan2.1_cla/multiple_objects": 0.6953125,
+                "wan2.2_cla/multiple_objects": 0.9375,
+                "vidu_cla/multiple_objects": 0.6234375000000001,
+                "Kling-1.6_cla/multiple_objects": 0.6901041666666666,
+                "hunyuanvideo_cla/multiple_objects": 0.7578125,
+                "veo_3_cla/multiple_objects": 0.9020833333333333
+            },
+            "Random": {
+                "opensora2/multiple_objects": 0.82421875,
+                "Sora_cla/multiple_objects": 0.78125,
+                "wan2.1_cla/multiple_objects": 0.578125,
+                "wan2.2_cla/multiple_objects": 0.85,
+                "vidu_cla/multiple_objects": 0.35416666666666663,
+                "Kling-1.6_cla/multiple_objects": 0.47526041666666663,
+                "hunyuanvideo_cla/multiple_objects": 0.640625,
+                "veo_3_cla/multiple_objects": 0.7291666666666667
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.2390320172713616,
+                "sample": 0.24975815269472398
+            },
+            "random": {
+                "full": 0.2390320172713616,
+                "sample": 0.2534530933399623
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_subject_consistency",
+        "sizes": {
+            "full": 72,
+            "representative": 3,
+            "random": 3
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/dynamic_degree": 0.9027777777777778,
+                "opensora2/motion_smoothness": 0.9864581274377378,
+                "opensora2/subject_consistency": 0.9482022094680966,
+                "Sora_cla/dynamic_degree": 0.9722222222222222,
+                "Sora_cla/motion_smoothness": 0.9864436348796324,
+                "Sora_cla/subject_consistency": 0.9304910308315427,
+                "wan2.1_cla/dynamic_degree": 0.8611111111111112,
+                "wan2.1_cla/motion_smoothness": 0.9824700735618674,
+                "wan2.1_cla/subject_consistency": 0.9459190351277358,
+                "wan2.2_cla/dynamic_degree": 0.8611111111111112,
+                "wan2.2_cla/motion_smoothness": 0.9810010607847117,
+                "wan2.2_cla/subject_consistency": 0.9423569157134948,
+                "vidu_cla/dynamic_degree": 1.0,
+                "vidu_cla/motion_smoothness": 0.9761164942486157,
+                "vidu_cla/subject_consistency": 0.8823458013234133,
+                "Kling-1.6_cla/dynamic_degree": 0.8611111111111112,
+                "Kling-1.6_cla/motion_smoothness": 0.992309251023683,
+                "Kling-1.6_cla/subject_consistency": 0.9295617779106746,
+                "hunyuanvideo_cla/dynamic_degree": 0.875,
+                "hunyuanvideo_cla/motion_smoothness": 0.9897818582623285,
+                "hunyuanvideo_cla/subject_consistency": 0.9463046571954491,
+                "veo_3_cla/dynamic_degree": 0.9583333333333334,
+                "veo_3_cla/motion_smoothness": 0.9915199311217092,
+                "veo_3_cla/subject_consistency": 0.9303967408161912
+            },
+            "K-means Representative": {
+                "opensora2/dynamic_degree": 0.6666666666666666,
+                "opensora2/motion_smoothness": 0.988611199049533,
+                "opensora2/subject_consistency": 0.949947291519493,
+                "Sora_cla/dynamic_degree": 1.0,
+                "Sora_cla/motion_smoothness": 0.9818491039398906,
+                "Sora_cla/subject_consistency": 0.921083855795647,
+                "wan2.1_cla/dynamic_degree": 1.0,
+                "wan2.1_cla/motion_smoothness": 0.9839175003173651,
+                "wan2.1_cla/subject_consistency": 0.9627070589922369,
+                "wan2.2_cla/dynamic_degree": 0.6666666666666666,
+                "wan2.2_cla/motion_smoothness": 0.9868401305061955,
+                "wan2.2_cla/subject_consistency": 0.9581252222259841,
+                "vidu_cla/dynamic_degree": 1.0,
+                "vidu_cla/motion_smoothness": 0.9772837600347922,
+                "vidu_cla/subject_consistency": 0.8595590673811065,
+                "Kling-1.6_cla/dynamic_degree": 0.6666666666666666,
+                "Kling-1.6_cla/motion_smoothness": 0.9917952821680932,
+                "Kling-1.6_cla/subject_consistency": 0.9296877664099964,
+                "hunyuanvideo_cla/dynamic_degree": 0.6666666666666666,
+                "hunyuanvideo_cla/motion_smoothness": 0.9901454396336744,
+                "hunyuanvideo_cla/subject_consistency": 0.955555545181657,
+                "veo_3_cla/dynamic_degree": 1.0,
+                "veo_3_cla/motion_smoothness": 0.987415784776569,
+                "veo_3_cla/subject_consistency": 0.9366118604860172
+            },
+            "Random": {
+                "opensora2/dynamic_degree": 1.0,
+                "opensora2/motion_smoothness": 0.9852439624857482,
+                "opensora2/subject_consistency": 0.9369209880164514,
+                "Sora_cla/dynamic_degree": 1.0,
+                "Sora_cla/motion_smoothness": 0.9864228881094439,
+                "Sora_cla/subject_consistency": 0.9209270893260669,
+                "wan2.1_cla/dynamic_degree": 1.0,
+                "wan2.1_cla/motion_smoothness": 0.9858693497520417,
+                "wan2.1_cla/subject_consistency": 0.9527353945188225,
+                "wan2.2_cla/dynamic_degree": 0.6666666666666666,
+                "wan2.2_cla/motion_smoothness": 0.984081042276575,
+                "wan2.2_cla/subject_consistency": 0.9713824250300725,
+                "vidu_cla/dynamic_degree": 1.0,
+                "vidu_cla/motion_smoothness": 0.978608840792582,
+                "vidu_cla/subject_consistency": 0.8749644872053528,
+                "Kling-1.6_cla/dynamic_degree": 1.0,
+                "Kling-1.6_cla/motion_smoothness": 0.9915934398874287,
+                "Kling-1.6_cla/subject_consistency": 0.9182402736610836,
+                "hunyuanvideo_cla/dynamic_degree": 1.0,
+                "hunyuanvideo_cla/motion_smoothness": 0.984042348242164,
+                "hunyuanvideo_cla/subject_consistency": 0.9368530122563244,
+                "veo_3_cla/dynamic_degree": 1.0,
+                "veo_3_cla/motion_smoothness": 0.9908632506744576,
+                "veo_3_cla/subject_consistency": 0.8867794950959155
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.04351892268652145,
+                "sample": 0.2732266914912723
+            },
+            "random": {
+                "full": 0.04351892268652145,
+                "sample": -0.042954266612737414
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_appearance_style",
+        "sizes": {
+            "full": 90,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/appearance_style": 0.23094790186261843,
+                "Sora_cla/appearance_style": 0.24817714236111107,
+                "wan2.1_cla/appearance_style": 0.22701017821930722,
+                "wan2.2_cla/appearance_style": 0.2042113404492455,
+                "vidu_cla/appearance_style": 0.21536782734094975,
+                "Kling-1.6_cla/appearance_style": 0.20872150454558544,
+                "hunyuanvideo_cla/appearance_style": 0.22238174660852708,
+                "veo_3_cla/appearance_style": 0.2354667805989583
+            },
+            "K-means Representative": {
+                "opensora2/appearance_style": 0.236516593992248,
+                "Sora_cla/appearance_style": 0.26021109374999996,
+                "wan2.1_cla/appearance_style": 0.231382137345679,
+                "wan2.2_cla/appearance_style": 0.19786448688271602,
+                "vidu_cla/appearance_style": 0.2196016885080645,
+                "Kling-1.6_cla/appearance_style": 0.20535239318594395,
+                "hunyuanvideo_cla/appearance_style": 0.2307612342538759,
+                "veo_3_cla/appearance_style": 0.2329906819661458
+            },
+            "Random": {
+                "opensora2/appearance_style": 0.25102143895348833,
+                "Sora_cla/appearance_style": 0.2756078125,
+                "wan2.1_cla/appearance_style": 0.2424539448302469,
+                "wan2.2_cla/appearance_style": 0.1968994984567901,
+                "vidu_cla/appearance_style": 0.23037147177419348,
+                "Kling-1.6_cla/appearance_style": 0.20001059631094395,
+                "hunyuanvideo_cla/appearance_style": 0.21641200339147285,
+                "veo_3_cla/appearance_style": 0.24479606119791666
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.259578605964857,
+                "sample": 0.2837744370374586
+            },
+            "random": {
+                "full": 0.259578605964857,
+                "sample": 0.23455119246563433
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_human_action",
+        "sizes": {
+            "full": 100,
+            "representative": 5,
+            "random": 5
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/human_action": 1.0,
+                "Sora_cla/human_action": 1.0,
+                "wan2.1_cla/human_action": 1.0,
+                "wan2.2_cla/human_action": 0.99,
+                "vidu_cla/human_action": 1.0,
+                "Kling-1.6_cla/human_action": 1.0,
+                "hunyuanvideo_cla/human_action": 0.98,
+                "veo_3_cla/human_action": 1.0
+            },
+            "K-means Representative": {
+                "opensora2/human_action": 1.0,
+                "Sora_cla/human_action": 1.0,
+                "wan2.1_cla/human_action": 1.0,
+                "wan2.2_cla/human_action": 1.0,
+                "vidu_cla/human_action": 1.0,
+                "Kling-1.6_cla/human_action": 1.0,
+                "hunyuanvideo_cla/human_action": 0.8,
+                "veo_3_cla/human_action": 1.0
+            },
+            "Random": {
+                "opensora2/human_action": 1.0,
+                "Sora_cla/human_action": 1.0,
+                "wan2.1_cla/human_action": 1.0,
+                "wan2.2_cla/human_action": 1.0,
+                "vidu_cla/human_action": 1.0,
+                "Kling-1.6_cla/human_action": 1.0,
+                "hunyuanvideo_cla/human_action": 1.0,
+                "veo_3_cla/human_action": 1.0
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": -0.014357683075131621,
+                "sample": NaN
+            },
+            "random": {
+                "full": -0.014357683075131621,
+                "sample": NaN
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_object_class",
+        "sizes": {
+            "full": 79,
+            "representative": 3,
+            "random": 3
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/object_class": 0.9560917721518988,
+                "Sora_cla/object_class": 0.9538765822784808,
+                "wan2.1_cla/object_class": 0.9142932489451475,
+                "wan2.2_cla/object_class": 0.9701740506329112,
+                "vidu_cla/object_class": 0.9216772151898732,
+                "Kling-1.6_cla/object_class": 0.9477848101265823,
+                "hunyuanvideo_cla/object_class": 0.8886998945147677,
+                "veo_3_cla/object_class": 0.9539556962025316
+            },
+            "K-means Representative": {
+                "opensora2/object_class": 0.975,
+                "Sora_cla/object_class": 0.975,
+                "wan2.1_cla/object_class": 0.9114583333333334,
+                "wan2.2_cla/object_class": 0.984375,
+                "vidu_cla/object_class": 0.8569444444444444,
+                "Kling-1.6_cla/object_class": 0.890625,
+                "hunyuanvideo_cla/object_class": 0.8083333333333332,
+                "veo_3_cla/object_class": 0.9083333333333333
+            },
+            "Random": {
+                "opensora2/object_class": 1.0,
+                "Sora_cla/object_class": 0.975,
+                "wan2.1_cla/object_class": 1.0,
+                "wan2.2_cla/object_class": 0.8875000000000001,
+                "vidu_cla/object_class": 0.875,
+                "Kling-1.6_cla/object_class": 0.9739583333333334,
+                "hunyuanvideo_cla/object_class": 0.9010416666666666,
+                "veo_3_cla/object_class": 0.9833333333333334
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.2827934195602378,
+                "sample": 0.40003602485283346
+            },
+            "random": {
+                "full": 0.2827934195602378,
+                "sample": 0.8543429489710374
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_spatial_relationship",
+        "sizes": {
+            "full": 84,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/spatial_relationship": 0.7912735084013236,
+                "Sora_cla/spatial_relationship": 0.8090258743497294,
+                "wan2.1_cla/spatial_relationship": 0.7855994508080902,
+                "wan2.2_cla/spatial_relationship": 0.8213206478111269,
+                "vidu_cla/spatial_relationship": 0.7261138966080904,
+                "Kling-1.6_cla/spatial_relationship": 0.8113592423371807,
+                "hunyuanvideo_cla/spatial_relationship": 0.7621442169106765,
+                "veo_3_cla/spatial_relationship": 0.8711046725473376
+            },
+            "K-means Representative": {
+                "opensora2/spatial_relationship": 0.8652578422356897,
+                "Sora_cla/spatial_relationship": 0.8797907144272853,
+                "wan2.1_cla/spatial_relationship": 0.7686259411828349,
+                "wan2.2_cla/spatial_relationship": 0.8422069217213632,
+                "vidu_cla/spatial_relationship": 0.7697237320253049,
+                "Kling-1.6_cla/spatial_relationship": 0.7605902346064093,
+                "hunyuanvideo_cla/spatial_relationship": 0.7564524058197344,
+                "veo_3_cla/spatial_relationship": 0.9008321306851806
+            },
+            "Random": {
+                "opensora2/spatial_relationship": 0.8641144571221757,
+                "Sora_cla/spatial_relationship": 0.9194444694406975,
+                "wan2.1_cla/spatial_relationship": 0.8269529176725006,
+                "wan2.2_cla/spatial_relationship": 0.7744185994551361,
+                "vidu_cla/spatial_relationship": 0.7168396096417828,
+                "Kling-1.6_cla/spatial_relationship": 0.960428166133899,
+                "hunyuanvideo_cla/spatial_relationship": 0.7779647612372286,
+                "veo_3_cla/spatial_relationship": 0.9546464944664952
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.49421956109666204,
+                "sample": 0.8761548044800124
+            },
+            "random": {
+                "full": 0.49421956109666204,
+                "sample": 0.4177264342415253
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_temporal_style",
+        "sizes": {
+            "full": 100,
+            "representative": 5,
+            "random": 5
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/temporal_style": 0.25828902706503865,
+                "Sora_cla/temporal_style": 0.24895283178985117,
+                "wan2.1_cla/temporal_style": 0.23114164846017957,
+                "wan2.2_cla/temporal_style": 0.2355331355035305,
+                "vidu_cla/temporal_style": 0.23826943199336525,
+                "Kling-1.6_cla/temporal_style": 0.244502204246819,
+                "hunyuanvideo_cla/temporal_style": 0.24537848374992607,
+                "veo_3_cla/temporal_style": 0.25942835837602607
+            },
+            "K-means Representative": {
+                "opensora2/temporal_style": 0.25220503032207486,
+                "Sora_cla/temporal_style": 0.2481146174669265,
+                "wan2.1_cla/temporal_style": 0.22457233630120754,
+                "wan2.2_cla/temporal_style": 0.22108058810234069,
+                "vidu_cla/temporal_style": 0.24400691509246825,
+                "Kling-1.6_cla/temporal_style": 0.24279634356498714,
+                "hunyuanvideo_cla/temporal_style": 0.24842967510223385,
+                "veo_3_cla/temporal_style": 0.2615778094530105
+            },
+            "Random": {
+                "opensora2/temporal_style": 0.28053014397621145,
+                "Sora_cla/temporal_style": 0.2711166405677795,
+                "wan2.1_cla/temporal_style": 0.25884582996368405,
+                "wan2.2_cla/temporal_style": 0.2564401644468307,
+                "vidu_cla/temporal_style": 0.23781361341476437,
+                "Kling-1.6_cla/temporal_style": 0.2618602804839611,
+                "hunyuanvideo_cla/temporal_style": 0.267745155096054,
+                "veo_3_cla/temporal_style": 0.2807188284397125
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.6714703503096434,
+                "sample": 0.7436316170052415
+            },
+            "random": {
+                "full": 0.6714703503096434,
+                "sample": 0.7686978663326889
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_overall_consistency",
+        "sizes": {
+            "full": 93,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/aesthetic_quality": 0.6515166282333354,
+                "opensora2/imaging_quality": 0.6562206177116484,
+                "opensora2/overall_consistency": 0.27381677649995334,
+                "Sora_cla/aesthetic_quality": 0.6481758427876299,
+                "Sora_cla/imaging_quality": 0.6888144405939244,
+                "Sora_cla/overall_consistency": 0.25915651357362185,
+                "wan2.1_cla/aesthetic_quality": 0.6801694689258453,
+                "wan2.1_cla/imaging_quality": 0.6896894195078853,
+                "wan2.1_cla/overall_consistency": 0.2585730917791846,
+                "wan2.2_cla/aesthetic_quality": 0.7038909799309189,
+                "wan2.2_cla/imaging_quality": 0.7123213767250839,
+                "wan2.2_cla/overall_consistency": 0.2610286558988274,
+                "vidu_cla/aesthetic_quality": 0.6198728597078699,
+                "vidu_cla/imaging_quality": 0.6366548068118463,
+                "vidu_cla/overall_consistency": 0.26479750019781906,
+                "Kling-1.6_cla/aesthetic_quality": 0.6550976839116824,
+                "Kling-1.6_cla/imaging_quality": 0.6957816087354465,
+                "Kling-1.6_cla/overall_consistency": 0.2600386172773377,
+                "hunyuanvideo_cla/aesthetic_quality": 0.6051963984004912,
+                "hunyuanvideo_cla/imaging_quality": 0.6799599999954595,
+                "hunyuanvideo_cla/overall_consistency": 0.2698307748443336,
+                "veo_3_cla/aesthetic_quality": 0.6320920759631742,
+                "veo_3_cla/imaging_quality": 0.6747645510153104,
+                "veo_3_cla/overall_consistency": 0.2762439147759509
+            },
+            "K-means Representative": {
+                "opensora2/aesthetic_quality": 0.6547097980976105,
+                "opensora2/imaging_quality": 0.6542899967237961,
+                "opensora2/overall_consistency": 0.2740273676812648,
+                "Sora_cla/aesthetic_quality": 0.6517860025167466,
+                "Sora_cla/imaging_quality": 0.6921063260269165,
+                "Sora_cla/overall_consistency": 0.277190987020731,
+                "wan2.1_cla/aesthetic_quality": 0.6772977523505688,
+                "wan2.1_cla/imaging_quality": 0.6955039341950122,
+                "wan2.1_cla/overall_consistency": 0.2808517720550298,
+                "wan2.2_cla/aesthetic_quality": 0.6906531661748887,
+                "wan2.2_cla/imaging_quality": 0.7057772246937692,
+                "wan2.2_cla/overall_consistency": 0.2795199148356914,
+                "vidu_cla/aesthetic_quality": 0.6447549223899841,
+                "vidu_cla/imaging_quality": 0.695563722971947,
+                "vidu_cla/overall_consistency": 0.28777444586157797,
+                "Kling-1.6_cla/aesthetic_quality": 0.6511284224689007,
+                "Kling-1.6_cla/imaging_quality": 0.691114181680798,
+                "Kling-1.6_cla/overall_consistency": 0.27043196279555554,
+                "hunyuanvideo_cla/aesthetic_quality": 0.6025990933179856,
+                "hunyuanvideo_cla/imaging_quality": 0.6921370109587677,
+                "hunyuanvideo_cla/overall_consistency": 0.2813724540174007,
+                "veo_3_cla/aesthetic_quality": 0.6509726196527481,
+                "veo_3_cla/imaging_quality": 0.6695736291358869,
+                "veo_3_cla/overall_consistency": 0.28938394561409947
+            },
+            "Random": {
+                "opensora2/aesthetic_quality": 0.6644509643316269,
+                "opensora2/imaging_quality": 0.693786109732103,
+                "opensora2/overall_consistency": 0.2889663234353065,
+                "Sora_cla/aesthetic_quality": 0.6589012280106545,
+                "Sora_cla/imaging_quality": 0.7084762768809001,
+                "Sora_cla/overall_consistency": 0.29624894857406614,
+                "wan2.1_cla/aesthetic_quality": 0.6964654140174389,
+                "wan2.1_cla/imaging_quality": 0.6666862701633829,
+                "wan2.1_cla/overall_consistency": 0.3014264293015003,
+                "wan2.2_cla/aesthetic_quality": 0.7076402902603149,
+                "wan2.2_cla/imaging_quality": 0.7580417914449431,
+                "wan2.2_cla/overall_consistency": 0.2743206568062305,
+                "vidu_cla/aesthetic_quality": 0.6186565905809402,
+                "vidu_cla/imaging_quality": 0.5909359794547481,
+                "vidu_cla/overall_consistency": 0.2825773276388645,
+                "Kling-1.6_cla/aesthetic_quality": 0.6399051621556282,
+                "Kling-1.6_cla/imaging_quality": 0.7289889311889395,
+                "Kling-1.6_cla/overall_consistency": 0.2769208522513508,
+                "hunyuanvideo_cla/aesthetic_quality": 0.6380937010049821,
+                "hunyuanvideo_cla/imaging_quality": 0.6914809214569801,
+                "hunyuanvideo_cla/overall_consistency": 0.30164076834917064,
+                "veo_3_cla/aesthetic_quality": 0.6568081393837929,
+                "veo_3_cla/imaging_quality": 0.6564611091415087,
+                "veo_3_cla/overall_consistency": 0.2912430249154567
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.27821054668848433,
+                "sample": 0.3316991872863599
+            },
+            "random": {
+                "full": 0.27821054668848433,
+                "sample": 0.3241113507744265
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_temporal_flickering",
+        "sizes": {
+            "full": 75,
+            "representative": 3,
+            "random": 3
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/temporal_flickering": 0.9944725631426362,
+                "Sora_cla/temporal_flickering": 0.9642347520395039,
+                "wan2.1_cla/temporal_flickering": 0.9903776927167681,
+                "wan2.2_cla/temporal_flickering": 0.9876936590724521,
+                "vidu_cla/temporal_flickering": 0.9704759819336185,
+                "Kling-1.6_cla/temporal_flickering": 0.9811521599205101,
+                "hunyuanvideo_cla/temporal_flickering": 0.988078680470099,
+                "veo_3_cla/temporal_flickering": 0.9869016017676957
+            },
+            "K-means Representative": {
+                "opensora2/temporal_flickering": 0.9944111196122138,
+                "Sora_cla/temporal_flickering": 0.6493602614932589,
+                "wan2.1_cla/temporal_flickering": 0.9858322117842881,
+                "wan2.2_cla/temporal_flickering": 0.9895453271990508,
+                "vidu_cla/temporal_flickering": 0.9698022033965666,
+                "Kling-1.6_cla/temporal_flickering": 0.9783162086617714,
+                "hunyuanvideo_cla/temporal_flickering": 0.9925281531125112,
+                "veo_3_cla/temporal_flickering": 0.9823003549669304
+            },
+            "Random": {
+                "opensora2/temporal_flickering": 0.9959810756429347,
+                "Sora_cla/temporal_flickering": 0.975318064346812,
+                "wan2.1_cla/temporal_flickering": 0.987409689126451,
+                "wan2.2_cla/temporal_flickering": 0.9847239984250535,
+                "vidu_cla/temporal_flickering": 0.968075534502665,
+                "Kling-1.6_cla/temporal_flickering": 0.9848855862820071,
+                "hunyuanvideo_cla/temporal_flickering": 0.9888955270698646,
+                "veo_3_cla/temporal_flickering": 0.9922666305420446
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.1886242779133232,
+                "sample": -0.13553883862834307
+            },
+            "random": {
+                "full": 0.1886242779133232,
+                "sample": 0.2738753843373871
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_color",
+        "sizes": {
+            "full": 85,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/color": 0.8892860481022244,
+                "Sora_cla/color": 0.8160541443850267,
+                "wan2.1_cla/color": 0.9107712059182648,
+                "wan2.2_cla/color": 0.906995135583371,
+                "vidu_cla/color": 0.862323922809217,
+                "Kling-1.6_cla/color": 0.8583997497600439,
+                "hunyuanvideo_cla/color": 0.9195068681318682,
+                "veo_3_cla/color": 0.8913708472899649
+            },
+            "K-means Representative": {
+                "opensora2/color": 0.8814583333333332,
+                "Sora_cla/color": 0.801875,
+                "wan2.1_cla/color": 0.8923277243589743,
+                "wan2.2_cla/color": 0.8925000000000001,
+                "vidu_cla/color": 0.8500520833333333,
+                "Kling-1.6_cla/color": 0.830654761904762,
+                "hunyuanvideo_cla/color": 0.889360119047619,
+                "veo_3_cla/color": 0.8953125
+            },
+            "Random": {
+                "opensora2/color": 0.8171875,
+                "Sora_cla/color": 0.6893127705627706,
+                "wan2.1_cla/color": 0.98828125,
+                "wan2.2_cla/color": 0.7923470279720279,
+                "vidu_cla/color": 0.8550000000000001,
+                "Kling-1.6_cla/color": 0.7420386904761904,
+                "hunyuanvideo_cla/color": 0.92265625,
+                "veo_3_cla/color": 0.796875
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.3190355418099161,
+                "sample": 0.025109775924584476
+            },
+            "random": {
+                "full": 0.3190355418099161,
+                "sample": 0.5528730784553831
+            }
+        }
+    },
+    {
+        "dataset_name": "metadata_scene",
+        "sizes": {
+            "full": 86,
+            "representative": 4,
+            "random": 4
+        },
+        "means": {
+            "Full Dataset": {
+                "opensora2/background_consistency": 0.9654028116270554,
+                "opensora2/scene": 0.6586361434108526,
+                "Sora_cla/background_consistency": 0.9581907217264807,
+                "Sora_cla/scene": 0.6692829457364341,
+                "wan2.1_cla/background_consistency": 0.9778130198633944,
+                "wan2.1_cla/scene": 0.5506298449612402,
+                "wan2.2_cla/background_consistency": 0.9692151517646257,
+                "wan2.2_cla/scene": 0.6314074612403101,
+                "vidu_cla/background_consistency": 0.9431300909944283,
+                "vidu_cla/scene": 0.5907461240310078,
+                "Kling-1.6_cla/background_consistency": 0.9520178269970325,
+                "Kling-1.6_cla/scene": 0.594173934108527,
+                "hunyuanvideo_cla/background_consistency": 0.9632677033890124,
+                "hunyuanvideo_cla/scene": 0.6167877906976744,
+                "veo_3_cla/background_consistency": 0.9526006877197355,
+                "veo_3_cla/scene": 0.6559350775193798
+            },
+            "K-means Representative": {
+                "opensora2/background_consistency": 0.9504356861114502,
+                "opensora2/scene": 0.6104166666666667,
+                "Sora_cla/background_consistency": 0.9510179353240351,
+                "Sora_cla/scene": 0.6322916666666667,
+                "wan2.1_cla/background_consistency": 0.9771400451660156,
+                "wan2.1_cla/scene": 0.46484375,
+                "wan2.2_cla/background_consistency": 0.9548492431640625,
+                "wan2.2_cla/scene": 0.659375,
+                "vidu_cla/background_consistency": 0.9288104297668953,
+                "vidu_cla/scene": 0.54375,
+                "Kling-1.6_cla/background_consistency": 0.942532730102539,
+                "Kling-1.6_cla/scene": 0.58203125,
+                "hunyuanvideo_cla/background_consistency": 0.9571372032165528,
+                "hunyuanvideo_cla/scene": 0.6984375,
+                "veo_3_cla/background_consistency": 0.9472444064954189,
+                "veo_3_cla/scene": 0.615625
+            },
+            "Random": {
+                "opensora2/background_consistency": 0.963329792022705,
+                "opensora2/scene": 0.7125,
+                "Sora_cla/background_consistency": 0.9547925296245806,
+                "Sora_cla/scene": 0.7671875,
+                "wan2.1_cla/background_consistency": 0.9809638977050782,
+                "wan2.1_cla/scene": 0.90625,
+                "wan2.2_cla/background_consistency": 0.9704132080078126,
+                "wan2.2_cla/scene": 0.6796875,
+                "vidu_cla/background_consistency": 0.9410538340002539,
+                "vidu_cla/scene": 0.7127604166666667,
+                "Kling-1.6_cla/background_consistency": 0.9589146931966146,
+                "Kling-1.6_cla/scene": 0.6953125,
+                "hunyuanvideo_cla/background_consistency": 0.9534927368164063,
+                "hunyuanvideo_cla/scene": 0.46875,
+                "veo_3_cla/background_consistency": 0.9574855305137433,
+                "veo_3_cla/scene": 0.909375
+            }
+        },
+        "correlations": {
+            "representative": {
+                "full": 0.269270018019217,
+                "sample": 0.2764992212715479
+            },
+            "random": {
+                "full": 0.269270018019217,
+                "sample": 0.3865728574461729
+            }
+        }
+    }
+]

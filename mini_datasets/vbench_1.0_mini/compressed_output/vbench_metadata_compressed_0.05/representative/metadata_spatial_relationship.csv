@@ -1,0 +1,5 @@
+id,opensora2/spatial_relationship,Sora_cla/spatial_relationship,wan2.1_cla/spatial_relationship,wan2.2_cla/spatial_relationship,vidu_cla/spatial_relationship,Kling-1.6_cla/spatial_relationship,hunyuanvideo_cla/spatial_relationship,veo_3_cla/spatial_relationship,difficulty
+"an airplane on the left of a train, front view",0.8625,1.0,0.96875,0.9847303738067864,0.9198634749013928,0.9264492405789432,0.8797080974581016,1.0,0
+"a skateboard on the top of a surfboard, front view",0.6152905840559886,0.694323986071839,0.426820790632674,0.6595982491389598,0.5332163222886221,0.4448702877873214,0.4396466077083715,0.6033285227407226,0
+"a fork on the right of a knife, front view",0.9921574680869232,0.8350166873508915,0.6789329740986655,0.7244990639397065,0.6414897789577011,0.7423405162119402,0.7064549181124642,1.0,0
+"a teddy bear on the right of a potted plant, front view",0.9910833167998468,0.9898221842864108,1.0,1.0,0.9843253519535032,0.9287008938474322,1.0,1.0,0

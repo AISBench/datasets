@@ -1,0 +1,6 @@
+id,opensora2/human_action,Sora_cla/human_action,wan2.1_cla/human_action,wan2.2_cla/human_action,vidu_cla/human_action,Kling-1.6_cla/human_action,hunyuanvideo_cla/human_action,veo_3_cla/human_action,difficulty
+A person is riding a bike,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0
+A person is doing aerobics,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0
+A person is grooming dog,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0
+A person is giving or receiving award,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0
+A person is milking cow,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0

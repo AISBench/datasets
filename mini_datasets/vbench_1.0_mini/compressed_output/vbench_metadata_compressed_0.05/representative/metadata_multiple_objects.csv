@@ -1,0 +1,5 @@
+id,opensora2/multiple_objects,Sora_cla/multiple_objects,wan2.1_cla/multiple_objects,wan2.2_cla/multiple_objects,vidu_cla/multiple_objects,Kling-1.6_cla/multiple_objects,hunyuanvideo_cla/multiple_objects,veo_3_cla/multiple_objects,difficulty
+a boat and an airplane,0.8375,0.6041666666666666,0.734375,0.95,0.5875,0.59375,0.71875,0.775,0
+a zebra and a giraffe,0.875,0.8375,0.84375,1.0,0.7375,0.84375,1.0,1.0,0
+a snowboard and a sports ball,0.8375,0.9875,0.578125,1.0,0.46875,0.6666666666666666,0.4125,0.8333333333333334,0
+a teddy bear and a frisbee,0.9875,0.875,0.625,0.8,0.7,0.65625,0.9,1.0,0
